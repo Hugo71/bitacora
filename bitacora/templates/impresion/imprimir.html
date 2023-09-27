@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bitácora de Actividades</title>
+</head>
+<body>
+    <h1 style="text-align: center;">COMISION ESTATAL DE SERVICIOS PUBLICOS DE TIJUANA</h1>
+    <p style="text-align: center;">DEPARTAMENTO DE INFORMATICA</p>
+    <h2 style="text-align: center;">RELACION MENSUAL DE TRABAJOS REALIZADOS</h2>
+    <p style="text-align: center;">{{ mes_actual }} del {{ año_actual }}</p>
+  
+    <table>
+        {% for empleado, actividades in actividades_por_empleado %}
+        <tr>
+            <td colspan="5"><strong>EMPLEADO {{ empleado.username }}</strong></td>
+        </tr>
+        <thead>
+            <tr>
+                <th>FECHA</th>
+                <th>AREA</th>
+                <th>USUARIO</th>
+                <th>TEMA</th>
+                <th>DESCRIPCION</th>
+            </tr>
+        </thead>
+        {% for actividad in actividades %}
+        <tr>
+            <td>{{ actividad.fecha | date:"d/m/Y" }}</td>
+            <td>{{ actividad.area }}</td>
+            <td>{{ actividad.usuario }}</td>
+            <td>{{ actividad.tema }}</td>
+            <td>{{ actividad.descripcion }}</td>
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </table>
+</body>
+</html>

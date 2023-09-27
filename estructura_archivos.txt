@@ -1,0 +1,89 @@
+bitacora_proyecto
+	> bitacora
+		> _pycache_
+		> migrations
+		> templates
+			> bitacora
+				> registration
+				login.html
+				registro.html
+			agregar_actividad.html
+			index.html
+		  _init__.py
+		  admin.py
+		  apps.py
+		  forms.py	
+		  models.py
+		  tests.py
+		  urls.py
+		  views.py
+	> bitacora_proyecto
+		> __pycache__
+		  __init_.py
+		  asgi.py
+		  settings.py
+		  urls.py
+		  wsgi.py
+	manage.py
+
+
+bitacora_proyecto
+	- bitacora_proyecto
+		_init_.py
+		asgi.py
+		settings.py
+		urls.py
+		wsgi.py
+	manage.py
+
+Bitácora de Actividades para September 2023
+
+Usuario	Fecha	Descripción
+aldo	Sept. 26, 2023	jkhfiuewrsndfkjsadfh
+paul	Sept. 26, 2023	fmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+paul	Sept. 26, 2023	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+user1	Sept. 20, 2023	instalacion de software
+user1	Sept. 21, 2023	2222222222222222
+user1	Sept. 21, 2023	kjashdkjsahd
+user1	Sept. 22, 2023	configuración de impresora
+user1	Sept. 26, 2023	55555555555555555555555555555
+user1	Sept. 26, 2023	000000000000000000000000000000000000
+user3	Sept. 21, 2023	1111111111111111
+user4	Sept. 25, 2023	fddfhdjhjfgfsdgdgdfg
+
+
+
+
+                     COMISION ESTATAL DE DERVICIOS PUBLICOS DE TIJUANA
+                                DEPARTAMENTO DE INFORMATICA
+                          RELACION MENSUAL DE TRABAJOS REALIZADOS
+                                   September del 2003
+
+aldo 
+
+FECHA      AREA          USUARIO         TEMA                  DESCRIPCION
+26 SEPT   fdggdf         fgdfgdf        fdgdfg              fdgfdgdfgdfg
+26 SEPT    vcbcvb        vbcvbvc         vbcvb               vbcvbcvbbvbbvbbc
+.
+.
+.
+ 
+
+paul 
+
+FECHA      AREA          USUARIO         TEMA                  DESCRIPCION
+26 SEPT   fdggdf         fgdfgdf        fdgdfg              fdgfdgdfgdfg
+26 SEPT    vcbcvb        vbcvbvc         vbcvb               vbcvbcvbbvbbvbbc
+.
+.
+.
+
+
+user1 
+
+FECHA      AREA          USUARIO         TEMA                  DESCRIPCION
+26 SEPT   fdggdf         fgdfgdf        fdgdfg              fdgfdgdfgdfg
+26 SEPT    vcbcvb        vbcvbvc         vbcvb               vbcvbcvbbvbbvbbc
+.
+.
+.
